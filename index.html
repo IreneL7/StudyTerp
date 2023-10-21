@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+        <title>Email Validation - StudyTerp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<div class="hero">
+    <div class="input-group">
+        <label id="email-label">EMAIL</label>
+        <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+        <span id="email-error"></span>
+    </div>
+</div>
+
+<script>
+    var emailField = document.getElementById("email-field");
+    var emailLabel = document.getElementById("email-label");
+    var emailError = document.getElementById("email-error");
+
+    function validateEmail(){
+        emailLabel.style.bottom = "45px";
+
+        if (!emailField.value.match(/^[A-Za-z\._\-0-9]*[@][terpmail]*[\.][umd]*[\.][edu]{2,4}$/)){
+            emailError.innerHTML = "Please use your UMD email (make sure your email ends in terpmail.umd.edu)";
+            emailField.style.borderBottomColor = "red";
+            emailError.style.top = "120%";
+            return false;
+        }
+
+        emailError.innerHTML = "";
+        emailField.style.borderBottomColor = "green";
+        emailError.style.top = "100%";
+        return true;
+    }
+</script>
+</body>
+</html>
