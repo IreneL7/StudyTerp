@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFE0;
 }
 
 /* University of Maryland Colors */
@@ -46,8 +47,12 @@ li {
 
 /* Main Content Styling */
 .main-content {
-    padding: 20px;
-    font-family: Arial, sans-serif;
+    padding: 25px;
+}
+
+.feature {
+    text-align: center;
+    font-weight: 500px;
 }
 
 /* Buttons */
@@ -69,7 +74,8 @@ li {
 a {
     color: #D00024;
     text-decoration: none;
-    padding: 10px 5px 10px 5px;
+    padding: 10px 13px 10px 13px;
+    border-radius: 25px;
 }
 
 a:hover {
@@ -85,5 +91,36 @@ a:hover {
 }
 
 .footer-section {
-    padding-top: 10px;
+    padding-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (e.g., tablets and smaller screens) */
+    .header {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    li {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (e.g., smartphones) */
+    .header {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    li {
+        margin-right: 3px;
+    }
+
+    .button {
+        padding: 5px 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
 }
