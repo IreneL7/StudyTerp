@@ -47,7 +47,10 @@ study platform, students are matched with study buddies based on classes, schedu
 and overall compatibility. Study Terp aims to foster a supportive and collaborative learning environment on demand 
 for every student by connecting them with like-minded peers. Say goodbye to solo study struggles and hello to a brighter,
 more interactive academic journey. Your perfect study buddy is just a click away!
-
+<p align="center">
+  <img src="img/studyterphome.png" alt="Home">
+  <img src="img/pointsterp.png" alt="Points">
+</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With ⚒️
