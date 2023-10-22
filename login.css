@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFE0;
 }
 
 .main{
@@ -17,11 +18,10 @@
 #login-label{
     display:block;
     position: static;
-    color: #777;
     font-size: 36px;
     margin-bottom: 130px;
     margin-right: 490px;
-
+    color:#000000
 }
 
 .email-group{
@@ -33,9 +33,9 @@
 
 #email-field{
     display: block;
-    width: 70%;
+    width: 100%;
     border: 0;
-    border-bottom: 2px solid #555;
+    border-bottom: 2px solid #000000;
     background: transparent;
     outline:none;
     font-size: 26px;
@@ -72,9 +72,9 @@
 
 #password-field{
     display: block;
-    width: 70%;
+    width: 100%;
     border: 0;
-    border-bottom: 2px solid #555;
+    border-bottom: 2px solid #000000;
     background: transparent;
     outline:none;
     font-size: 26px;
