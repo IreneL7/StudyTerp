@@ -1,5 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    min-width: 390px;
+    color: #FAF9F6;
 }
 
 /* University of Maryland Colors */
@@ -27,29 +30,10 @@ body {
     font-weight: bold;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:40px;
-}
-
-button {
-    border: none;
-    cursor: pointer;
-    appearance: none;
-    background-color: inherit;
-    margin-left:10px;
-}
-
 img {
-    top: 30px;
-    left: 10px;
-    padding:10px;
+    width: 13%;
+    max-width: 13%;
+    padding: 6px;
     position: absolute;
 }
 
