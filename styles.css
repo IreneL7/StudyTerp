@@ -164,21 +164,24 @@ a:hover::before {
         font-size: 14px;
     }
 }
-
-
+/* ADD THIS */
 #userInput {
     text-align:center;
 }
-/* <!--Database/Table of Students--> */
-table, th, td {
-    border:1px solid black;
-    border-collapse: collapse;
+
+#myTable, th, td {
     text-align:center;
-    padding:5px;
+}
+caption {
+    font-size:30px;
 }
 th {
     background-color:#D00024
 }
-caption {
-    font-size: 30px;
+input {
+    height:20px;
+    font-size:18px;
+}
+#courses {
+    height:25px;
 }

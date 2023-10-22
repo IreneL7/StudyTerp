@@ -1,11 +1,15 @@
 
+var counter = 1;
 
-// action event listener when user clicks submit button, run addStudentToDatabase function
-
-
-function addStudentToDatabase() {
-    let fName = document.getElementById("firstName");
-    let lName = document.getElementById("lastName");
-    let uid = document.getElementById("UID");
-    output.innerHTML = "<tr><td>"+fName+"<tr><td>"+lName+"<tr><td>"+uid;
-}
+function myFunction() {
+    var table = document.getElementById("myTable");
+    var row = table.insertRow(counter++);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    cell1.innerHTML = document.getElementById('firstName').value;
+    cell2.innerHTML = document.getElementById('lastName').value;
+    cell3.innerHTML = document.getElementById('UID').value;
+    cell4.innerHTML = document.getElementById('courses').value;
+  }
