@@ -71,6 +71,118 @@ h1 {
 #profileImg{
     width:150px;
     height:150px;
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 50px;
+}
+
+.mainDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileName{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 100px;
+}
+
+#name-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+#name-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+.profileYear{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 70px;
+    top: 100px;
+}
+
+#year-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+#year-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+.profileMajor{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 70px;
+}
+
+#major-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+#major-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#update-button{
+    border-radius: 15px;
+    margin-top: 125px;
+}
+
+#update-message{
+    position: fixed;
+    top: 75%;
+    font-size: 16px;
+    font-weight: 400;
+    color: green;
 }
