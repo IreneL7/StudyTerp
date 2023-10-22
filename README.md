@@ -8,7 +8,7 @@
 <div align="center">
   <a href="https://github.com/IreneL7/StudyTerp"></a>
 
-## Study Terp
+<h3 align="center" font-size=36px>Study Terp</h3>
 
   <p align="center">
     Tinder, but for studying.
@@ -39,8 +39,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-
-## About The Project
+## About The Project 📘
 
 Study Terp is a study buddy matchmaker for students at the University of Maryland. Through this revolutionary social 
 study platform, students are matched with study buddies based on classes, schedules, majors/minors, study habits,
@@ -50,7 +49,7 @@ more interactive academic journey. Your perfect study buddy is just a click away
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+### Built With ⚒️
 
 * [![JavaScript][JS.js]][JS-url]
 * [![HTML][HTML.com]][HTML-url]
@@ -59,11 +58,11 @@ more interactive academic journey. Your perfect study buddy is just a click away
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started 🏆
 
 To get a local copy up and running follow these simple example steps.
 
-### Installation
+### Installation 💻
 
 1. Clone the repo
    ```sh
@@ -77,7 +76,7 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
+## Roadmap 🗺️
 
 - Brainstormed idea and features of product
 - Designed web app components in VS Code
@@ -89,7 +88,7 @@ See the [open issues](https://github.com/IreneL7/StudyTerp/issues) for a full li
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributing 🤚
 
 Contributions are always welcome and **greatly appreciated**. We would love to make our studying Tinder app better and more suited towards students' needs. 
 
@@ -104,7 +103,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Acknowledgments 💙
 
 Special thanks to [Technica](https://gotechnica.org/) and all the sponsors, organizers, and other hackers for making this hackathon an amazing experience!
 
