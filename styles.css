@@ -24,18 +24,6 @@ body {
     font-weight: bold;
 }
 
-
-.icon-button {
-    background: green;
-    height: 41px;
-    width: 72px;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    display: flex;
-    align-items: center;
-  }
-
 * {
     margin: 0;
     padding: 0;
