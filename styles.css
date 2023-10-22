@@ -329,7 +329,7 @@ a:hover::before {
     width : 90%;
     max-width: 600px;
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
 }
 
 #major-field{
@@ -409,6 +409,10 @@ input {
 /* Meet the Team */
 .teamImg{
     position:relative;
+}
+
+#meetTeam{
+    text-align:center;
 }
 
 /* Responsive Styles */
