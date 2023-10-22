@@ -8,10 +8,10 @@
 <div align="center">
   <a href="https://github.com/IreneL7/StudyTerp"></a>
 
-<h3 align="center" font-size:36px>Study Terp</h3>
+<h3 align="center" font-size=36px>Study Terp</h3>
 
   <p align="center">
-    Study Terp is a social study platform that matches students at the University of Maryland with study buddies based on a variety of factors and preferences. 
+    Tinder, but for studying.
     <br />
   </p>
 </div>
@@ -39,7 +39,7 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project 📘
 
 Study Terp is a study buddy matchmaker for students at the University of Maryland. Through this revolutionary social 
 study platform, students are matched with study buddies based on classes, schedules, majors/minors, study habits,
@@ -49,7 +49,7 @@ more interactive academic journey. Your perfect study buddy is just a click away
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+### Built With ⚒️
 
 * [![JavaScript][JS.js]][JS-url]
 * [![HTML][HTML.com]][HTML-url]
@@ -58,11 +58,11 @@ more interactive academic journey. Your perfect study buddy is just a click away
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Getting Started 🏆
 
 To get a local copy up and running follow these simple example steps.
 
-### Installation
+### Installation 💻
 
 1. Clone the repo
    ```sh
@@ -76,22 +76,23 @@ To get a local copy up and running follow these simple example steps.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-## Roadmap
+## Roadmap 🗺️
 
 - Brainstormed idea and features of product
 - Designed web app components in VS Code
+- Implemented matchmaking algorithm
+- Tested privacy leaks and addressed security concerns
 
 See the [open issues](https://github.com/IreneL7/StudyTerp/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contributing 🤚
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are always welcome and **greatly appreciated**. We would love to make our studying Tinder app better and more suited towards students' needs. 
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. Or, you can contact us directly and submit ideas. You can also simply open an issue with the tag "enhancement".
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -102,9 +103,9 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Acknowledgments 💙
 
-* [Technica](https://gotechnica.org/)
+Special thanks to [Technica](https://gotechnica.org/) and all the sponsors, organizers, and other hackers for making this hackathon an amazing experience!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
