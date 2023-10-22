@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-label{
+    display:block;
+    position: static;
+    color: #777;
+    font-size: 36px;
+    margin-bottom: 130px;
+    margin-right: 490px;
+
+}
+
+.email-group{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 70px;
+}
+
+#email-field{
+    display: block;
+    width: 70%;
+    border: 0;
+    border-bottom: 2px solid #555;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+#email-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#email-error{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
+
+.password-group{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+#password-field{
+    display: block;
+    width: 70%;
+    border: 0;
+    border-bottom: 2px solid #555;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+
+#password-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#password-error{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
