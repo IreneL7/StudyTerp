@@ -6,6 +6,23 @@
     background-color: #FFFFE0;
 }
 
+/* Nav Bar Styling */
+nav {
+    text-align: center;
+    padding-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px; 
+}
+
 .main{
     width: 100%;
     height: 100vh;
@@ -19,8 +36,9 @@
     display:block;
     position: static;
     font-size: 36px;
+    margin-top: -80px;
     margin-bottom: 130px;
-    margin-right: 490px;
+    margin-right: 10px;
     color:#000000
 }
 
@@ -101,4 +119,20 @@
     font-weight: 400;
     color: red;
     transition: top 0.5s;
+}
+
+/* University of Maryland Colors */
+.umd-primary-color {
+    background-color: #D00024; /* UMD red color */
+    color: #FFFFFF; /* White text on red background */
+    text-decoration: none;
+    padding: 10px 13px 10px 13px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.umd-secondary-color {
+    background-color: #FFD100; /* UMD gold color */
+    color: #000000; /* Black text on gold background */
 }

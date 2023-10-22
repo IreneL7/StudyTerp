@@ -5,20 +5,30 @@
         <title>Email Validation - StudyTerp</title>
         <link rel="stylesheet" href="login.css">
     </head>
-<div class="main">
-    <label id="login-label">Log In: </label>
-    <div class="email-group">
-        <label id="email-label">EMAIL</label>
-        <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
-        <span id="email-error"></span>
-    </div>
+    <nav>
+        <ul>
+            <li><a class="umd-primary-color" href="index.html">Home</a></li>
+            <li><a class="umd-secondary-color" href="login.html">Profile</a></li>
+            <li><a class="umd-primary-color" href="#">Terp Matchmaker</a></li>
+            <li><a class="umd-secondary-color" href="#">About</a></li>
+            <li><a class="umd-primary-color" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <label id="login-label">Log In: </label>
+        <div class="email-group">
+            <label id="email-label">EMAIL</label>
+            <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+            <span id="email-error"></span>
+        </div>
 
-    <div class="password-group">
-        <label id="password-label">PASSWORD</label>
-        <input type="password" spellcheck="false" id="password-field" onkeyup="validatePassword()">
-        <span id="password-error"></span>
+        <div class="password-group">
+            <label id="password-label">PASSWORD</label>
+            <input type="password" spellcheck="false" id="password-field" onkeyup="validatePassword()">
+            <span id="password-error"></span>
+        </div>
+        <a class="umd-primary-color" href="profile.html">Log In</a>
     </div>
-</div>
 
 <script>
     var emailField = document.getElementById("email-field");
@@ -48,7 +58,8 @@
     function validatePassword(){
         passwordLabel.style.bottom = "45px";
 
-        if (!passwordField.value.match(/^[A-Za-z\._\-0-9\*]{2,4}$/)){
+        /*
+        if (!passwordField.value.includes(("ABCDEFGHIJKLMNOPQRSTUVWXYZ" || "abcdefghijklmnopqrstuvwxyz" || "0123456789" || "_" || "*." || ""))){
             passwordError.innerHTML = "Please only enter valid characters (A-Z, a-z, ., _, *, 0-9)";
             passwordField.style.borderBottomColor = "red";
             passwordError.style.top = "120%";
@@ -59,6 +70,7 @@
         passwordField.style.borderBottomColor = "green";
         passwordError.style.top = "100%";
         return true;
+        */
     }
 </script>
 </body>
