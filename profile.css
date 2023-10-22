@@ -5,8 +5,12 @@ body {
     color: #FAF9F6;
 }
 
-.terp {
+#terpy {
     color: #D00024;
+    width: 13%;
+    max-width: 13%;
+    padding: 6px;
+    position: absolute;
 }
 
 /* Header Styling */
@@ -27,6 +31,10 @@ header > img{
 
 h1{
     text-align:center;
+}
+
+h2{
+    margin-left: 250px;
 }
 /* University of Maryland Colors */
 .umd-primary-color {
@@ -98,6 +106,7 @@ h1 {
     height:150px;
     margin-left: 250px;
     margin-top: 50px;
+    position: relative;
 }
 
 .mainDetails{
