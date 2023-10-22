@@ -13,6 +13,10 @@ body {
     color: #000000; /* Black text on gold background */
 }
 
+.terp {
+    color: #D00024;
+}
+
 /* Header Styling */
 .header {
     background-color: #D00024;
@@ -101,10 +105,13 @@ a {
     text-decoration: none;
     padding: 10px 13px 10px 13px;
     border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover {
     text-decoration: underline;
+    transform: scale(1.1);
 }
 
 /* Footer Styling */
