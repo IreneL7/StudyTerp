@@ -1,6 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #121212;
+    min-width: 390px;
+    color: #FAF9F6;
 }
 
 /* University of Maryland Colors */
@@ -14,6 +16,10 @@ body {
     color: #000000; /* Black text on gold background */
 }
 
+.terp {
+    color: #D00024;
+}
+
 /* Header Styling */
 .header {
     background-color: #D00024;
@@ -22,6 +28,13 @@ body {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+}
+
+img {
+    width: 13%;
+    max-width: 13%;
+    padding: 6px;
+    position: absolute;
 }
 
 h1 {
@@ -52,7 +65,7 @@ li {
 
 .feature {
     text-align: center;
-    font-weight: 500px;
+    font-size: 20px;
 }
 
 /* Buttons */
@@ -72,14 +85,41 @@ li {
 
 /* Links */
 a {
+    display: inline-block;
+    width: 120px;
+    padding: 10px 13px;
+    text-align: center;
     color: #D00024;
     text-decoration: none;
-    padding: 10px 13px 10px 13px;
     border-radius: 25px;
+    cursor: pointer;
+    font-weight: normal;
+    transition: width 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0px;
+    background-color: #D00024;
+    transition: width 0.3s ease-in-out;
 }
 
 a:hover {
-    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover::before {
+    width: 100%;
+    height: 2px; /* Add height for the underline */
+}
+
+
+.wider-button {
+    width: 150px;
 }
 
 /* Footer Styling */
