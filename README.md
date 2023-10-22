@@ -8,7 +8,7 @@
 <div align="center">
   <a href="https://github.com/IreneL7/StudyTerp"></a>
 
-<h3 align="center" style="font-size: 24px;">Study Terp</h3>
+<h3 align="center" font-size:36px>Study Terp</h3>
 
   <p align="center">
     Study Terp is a social study platform that matches students at the University of Maryland with study buddies based on a variety of factors and preferences. 
