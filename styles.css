@@ -27,6 +27,12 @@ body {
     position: absolute;
 }
 
+#technitudo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 /* Header Styling */
 .header {
     background-color: #D00024;
