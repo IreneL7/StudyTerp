@@ -2,6 +2,7 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
+  <img src="img/technitudo.png" alt="Technitudo" width="200">
   <img src="terp.png" alt="Study Terp" width="200">
 </p>
 <br />
