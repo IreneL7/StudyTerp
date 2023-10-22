@@ -408,11 +408,36 @@ input {
 
 /* Meet the Team */
 .teamImg{
-    position:relative;
+    position: relative;
+    height: 70%;
 }
 
 #meetTeam{
     text-align:center;
+}
+
+.row1{
+    display:flex;
+}
+
+.row2{
+    display:flex;
+}
+
+.row3{
+    display:flex;
+}
+
+.row4{
+    display:flex;
+}
+
+.column{
+    line-height: 13px;
+}
+
+.column2{
+    line-height:8px;
 }
 
 /* Responsive Styles */
