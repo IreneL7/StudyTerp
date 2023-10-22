@@ -470,5 +470,24 @@ input {
         font-size: 14px;
     }
 }
+/* ADD THIS */
+#userInput {
+    text-align:center;
+}
 
-
+#myTable, th, td {
+    text-align:center;
+}
+caption {
+    font-size:30px;
+}
+th {
+    background-color:#D00024
+}
+input {
+    height:20px;
+    font-size:18px;
+}
+#courses {
+    height:25px;
+}

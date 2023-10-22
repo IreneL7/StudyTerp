@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Study Terp</title>
+    <title>TerpMatchMaker</title> 
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-           <img src="img/terp.png"  alt="logo">
-            <h1>Study Terp</h1>
-        </div>
-    </header>
+    <h1>
+        TerpMatchMaker
+    </h1>
     <nav>
         <ul>
             <li><a class="umd-primary-color" href="index.html">Home</a></li>
             <li><a class="umd-secondary-color" href="profile.html">Profile</a></li>
-            <li><a class="umd-primary-color wider-button" href="matchmaker.html">Terp Matchmaker</a></li>
+            <li><a class="umd-primary-color" href="terpmatchmaker.html">Terp Matchmaker</a></li>
             <li><a class="umd-secondary-color wider-button" href="team.html">Meet the Team</a></li>
+
         </ul>
     </nav>
-         <h2>Terp Matchmaker</h2>
+    <br><br><br>
     <!--Retrieve student info including first name, last name, UID, and selected class (all fields are required)-->
     <div id="userInput">
-        <form action="matchmaker.html" method="GET">
+        <form action="terpmatchmaker.html" method="GET">
             <input id="firstName" type="text" name=firstName placeholder="First Name" required>
             <input id="lastName" type="text" name=lastName placeholder="Last Name" required>
-            <input id="UID" type="text" name="UID" placeholder="University ID" required">
+            <input id="UID" type="text" name="UID" placeholder="University ID" required>
             <select id="courses" name="courses">
                 <option value="CMSC131">CMSC131</option>
                 <option value="CMSC132">CMSC132</option>
@@ -37,12 +36,12 @@
                 <option value="CMSC330">CMSC330</option>
                 <option value="CMSC351">CMSC351</option>
             </select>
+            <button type="submit">Submit</button>
         </form>
-        <button onclick="myFunction()">Submit</button>
     </div>
     <br><br>
     <!--Database/Table of all students-->
-    <table id="myTable" style="width:100%">
+    <table class="tb" style="width:100%">
         <caption>Table of Students</caption>
         <tr>
             <th>First Name</th>
@@ -50,17 +49,14 @@
             <th>UID</th>
             <th>Class</th>
         </tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>123456789</td>
+            <td>Irene</td>
+            <td>Lee</td>
+            <td>119292433</td>
             <td>CMSC131</td>
         <tr>
         </table>
-    <footer class="footer-section">
-        <div class="copyright">
-            &copy; 2023 Study Terp
-        </div>
-    </footer>
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
