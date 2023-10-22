@@ -1,36 +1,78 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <title>Study Terp</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div>
-           <img src="terp.png"  alt="logo">
-            <h1>Study Terp</h1>
-        </div>
-    </header>
-    <nav>
-        <ul>
+    <head>
+        <title>Study Terp</title>
+        <link rel="stylesheet" type="text/css" href="profile.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="terp.png"  alt="logo">
+                 <h1>Study Terp</h1>
+             </div>
+        </header>
+        <nav>
+            <ul>
             <li><a class="umd-primary-color" href="index.html">Home</a></li>
-            <li><a class="umd-secondary-color" href="profile.html">Profile</a></li>
+            <li><a class="umd-secondary-color" href="login.html">Profile</a></li>
             <li><a class="umd-primary-color wider-button" href="matchmaker.html">Terp Matchmaker</a></li>
             <li><a class="umd-secondary-color wider-button" href="team.html">Meet the Team</a></li>
         </ul>
-    </nav>
-    <main class="main-content">
+        </nav>
+        <h2> My Profile</h2>
         <div>
-            <h2>My Profile</h2>
-    </main>
-    <footer class="footer-section">
-        <div class="copyright">
-            &copy; 2023 Study Terp
+            <img id="profileImg" src="img/defaultPic.png" alt="profile picture" />
         </div>
-    </footer>
-    <script src="script.js"></script>
-</body>
+        <div class="mainDetails">
+            <div class="profileName">
+                <label id="name-label">NAME</label>
+                <input type="name" spellcheck="false" id="name-field" onkeyup="animateName()">
+            </div>
+            <div class="profileYear">
+                <label id="year-label">YEAR</label>
+                <input type="year" spellcheck="false" id="year-field" onkeyup="animateYear()">
+            </div>
+            <div class="profileMajor">
+                <label id="major-label">MAJOR</label>
+                <input type="major" spellcheck="false" id="major-field" onkeyup="animateMajor()">
+            </div>
+            <button class="button" id="update-button" onclick="updateMsg()">Update!</button>
+            <span id="update-message"></span>
+        </div>
+
+        <script>
+            document.getElementById("update-button").addEventListener("click", updateMsg);
+            var nameField = document.getElementById("name-field");
+            var nameLabel = document.getElementById("name-label");
+
+            function animateName(){
+                nameLabel.style.bottom = "45px";
+            }
+
+            var yearField = document.getElementById("year-field");
+            var yearLabel = document.getElementById("year-label");
+
+            function animateYear(){
+                yearLabel.style.bottom = "45px";
+            }
+
+            var majorField = document.getElementById("major-field");
+            var majorLabel = document.getElementById("major-label");
+
+            function animateMajor(){
+                majorLabel.style.bottom = "45px";
+            }
+            function updateMsg(){
+                document.getElementById("update-message").innerHTML = "Updated successfully!";
+            }
+        </script>
+        <footer class="footer-section">
+            <div class="copyright">
+                &copy; 2023 Study Terp
+            </div>
+        </footer>
+    </body>
 </html>
