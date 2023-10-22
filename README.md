@@ -1,7 +1,9 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-![Study Terp](terp.png)
+<p align="center">
+  <img src="terp.png" alt="Study Terp" width="200">
+</p>
 <br />
 <div align="center">
   <a href="https://github.com/IreneL7/StudyTerp"></a>
