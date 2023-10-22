@@ -24,6 +24,11 @@ body {
     font-weight: bold;
 }
 
+img {
+    top: 30px;
+    left: 10px;
+}
+
 h1 {
     text-align: center;
 }
