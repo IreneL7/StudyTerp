@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+!DOCTYPE HTML>
 <html>
     <head>
-        <title>Profile</title>
+        <title>Study Terp</title>
         <link rel="stylesheet" type="text/css" href="profile.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,7 +9,10 @@
     </head>
     <body>
         <header>
-            <h1>Profile</h1>
+            <div>
+                <img src="terp.png"  alt="logo">
+                 <h1>Study Terp</h1>
+             </div>
         </header>
         <nav>
             <ul>
@@ -20,6 +23,7 @@
                 <li><a class="umd-primary-color" href="#">Contact</a></li>
             </ul>
         </nav>
+        <h2> My Profile</h2>
         <div>
             <img id="profileImg" src="img/defaultPic.png" alt="profile picture" />
         </div>
@@ -62,10 +66,14 @@
             function animateMajor(){
                 majorLabel.style.bottom = "45px";
             }
-
             function updateMsg(){
                 document.getElementById("update-message").innerHTML = "Updated successfully!";
             }
         </script>
+        <footer class="footer-section">
+            <div class="copyright">
+                &copy; 2023 Study Terp
+            </div>
+        </footer>
     </body>
 </html>
