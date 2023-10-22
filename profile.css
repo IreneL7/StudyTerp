@@ -1,8 +1,33 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #FFFFE0;
+    background-color: #121212;
+    min-width: 390px;
+    color: #FAF9F6;
 }
 
+.terp {
+    color: #D00024;
+}
+
+/* Header Styling */
+.header {
+    background-color: #D00024;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+header > img{
+    width: 13%;
+    max-width: 13%;
+    padding: 6px;
+    position: absolute;
+}
+
+h1{
+    text-align:center;
+}
 /* University of Maryland Colors */
 .umd-primary-color {
     background-color: #D00024; /* UMD red color */
@@ -185,4 +210,47 @@ h1 {
     font-size: 16px;
     font-weight: 400;
     color: green;
+}
+
+/* Footer Styling */
+.copyright {
+    background-color: #D00024;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-section {
+    padding-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (e.g., tablets and smaller screens) */
+    .header {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    li {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (e.g., smartphones) */
+    .header {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    li {
+        margin-right: 3px;
+    }
+
+    .button {
+        padding: 5px 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
 }
