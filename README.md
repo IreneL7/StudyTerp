@@ -50,7 +50,7 @@ more interactive academic journey. Your perfect study buddy is just a click away
 
 * [![JavaScript][JS.js]][JS-url]
 * [![HTML][HTML.com]][HTML-url]
-* ![CSS3][CSS.com][CSS-url]
+* [![CSS3][CSS.com]][CSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
