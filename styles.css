@@ -20,6 +20,13 @@ body {
     color: #D00024;
 }
 
+#terpy{
+    width: 13%;
+    max-width: 13%;
+    padding: 6px;
+    position: absolute;
+}
+
 /* Header Styling */
 .header {
     background-color: #D00024;
@@ -56,7 +63,6 @@ li {
     display: inline;
     margin-right: 10px; 
 }
-
 
 /* Main Content Styling */
 .main-content {
@@ -120,6 +126,249 @@ a:hover::before {
 
 .wider-button {
     width: 150px;
+}
+
+/* LogIn CSS */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-label{
+    display: block;
+    position: fixed;
+    font-size: 36px;
+    margin-top: -300px;
+    margin-bottom: 130px;
+    margin-right: 490px;
+    color:#FFFFFF
+}
+
+.email-group{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 70px;
+}
+
+#email-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #FFFFFF;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+    color: #FAF9F6;
+}
+
+#email-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#email-error{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
+
+.password-group{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+}
+
+#password-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #FFFFFF;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+    color: #FAF9F6;
+}
+
+#password-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#password-error{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
+
+#login-button{
+    text-align: center;
+    margin-top: 75px;
+}
+
+#weird-button{
+    width : 155px;
+}
+
+/* Profile Page CSS */
+
+profile.html > h2{
+    margin-left: 270px;
+    margin-bottom: -20px;
+}
+
+#profileImg{
+    width:150px;
+    height:150px;
+    margin-left: 250px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.mainDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileName{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 100px;
+}
+
+#name-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+    color: #FAF9F6;
+}
+
+#name-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+.profileYear{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 70px;
+    top: 100px;
+}
+
+#year-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+    color: #FAF9F6;
+}
+
+#year-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+.profileMajor{
+    width : 90%;
+    max-width: 600px;
+    position: relative;
+    bottom: 70px;
+}
+
+#major-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+    color: #FAF9F6;
+}
+
+#major-label{
+    display:block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#update-button{
+    border-radius: 15px;
+    margin-top: 125px;
+    font-size: 16px;
+}
+
+#update-message{
+    position: relative;
+    top: 75%;
+    font-size: 16px;
+    font-weight: 400;
+    color: green;
+    margin-bottom: 20px;
 }
 
 /* Footer Styling */

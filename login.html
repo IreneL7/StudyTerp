@@ -3,7 +3,10 @@
     <head>
         <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
         <title>Email Validation - StudyTerp</title>
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <header>
         <div>
@@ -16,12 +19,12 @@
             <ul>
                 <li><a class="umd-primary-color" href="index.html">Home</a></li>
                 <li><a class="umd-secondary-color" href="login.html">Profile</a></li>
-                <li><a class="umd-primary-color" href="#">Terp Matchmaker</a></li>
-                <li><a class="umd-secondary-color" href="#">About</a></li>
-                <li><a class="umd-primary-color" href="#">Contact</a></li>
+                <li><a id="weird-button" class="umd-primary-color" href="matchmaker.html">Terp Matchmaker</a></li>
+                <li><a class="umd-secondary-color" href="team.html">Meet the Team</a></li>
             </ul>
         </nav>
-        <div class="main">
+        
+        <main class="main">
             <label id="login-label">Log In: </label>
             <div class="email-group">
                 <label id="email-label">EMAIL</label>
@@ -34,8 +37,8 @@
                 <input type="password" spellcheck="false" id="password-field" onkeyup="validatePassword()">
                 <span id="password-error"></span>
             </div>
-            <a class="umd-primary-color" id="login-button" href="profile.html">Log In</a>
-        </div>
+            <a class="umd-primary-color" id="login-button" href="index.html">Log In</a>
+        </main>
 
         <script>
             var emailField = document.getElementById("email-field");
