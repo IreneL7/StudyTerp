@@ -9,7 +9,7 @@
 /* Nav Bar Styling */
 nav {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 50px;
 }
 
 ul {
@@ -33,10 +33,10 @@ li {
 }
 
 #login-label{
-    display:block;
+    display: block;
     position: static;
     font-size: 36px;
-    margin-top: -80px;
+    margin-top: -150px;
     margin-bottom: 130px;
     margin-right: 10px;
     color:#000000
@@ -129,10 +129,15 @@ li {
     padding: 10px 13px 10px 13px;
     border-radius: 25px;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .umd-secondary-color {
     background-color: #FFD100; /* UMD gold color */
     color: #000000; /* Black text on gold background */
+    text-decoration: none;
+    padding: 10px 13px 10px 13px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-size: 24px;
 }

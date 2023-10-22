@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFE0;
+}
+
+/* University of Maryland Colors */
+.umd-primary-color {
+    background-color: #D00024; /* UMD red color */
+    color: #FFFFFF; /* White text on red background */
+}
+
+.umd-secondary-color {
+    background-color: #FFD100; /* UMD gold color */
+    color: #000000; /* Black text on gold background */
+}
+
+/* Nav Bar Styling */
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+/* Buttons */
+.button {
+    background-color: #D00024;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #FFD100;
+}
+
+/* Links */
+a {
+    color: #D00024;
+    text-decoration: none;
+    padding: 10px 13px 10px 13px;
+    border-radius: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    display: absolute;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+#profileImg{
+    width:150px;
+    height:150px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
