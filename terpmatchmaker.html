@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TerpMatchMaker</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        TerpMatchMaker
+    </h1>
+    <nav>
+        <ul>
+            <li><a class="umd-primary-color" href="index.html">Home</a></li>
+            <li><a class="umd-secondary-color" href="#">Profile</a></li>
+            <li><a class="umd-primary-color" href="terpmatchmaker.html">Terp Matchmaker</a></li>
+            <li><a class="umd-secondary-color" href="#">About</a></li>
+            <li><a class="umd-primary-color" href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <br><br><br>
+    <!--Retrieve student info including first name, last name, UID, and selected class (all fields are required)-->
+    <div id="userInput">
+        <form action="terpmatchmaker.html" method="GET">
+            <input id="firstName" type="text" name=firstName placeholder="First Name" required>
+            <input id="lastName" type="text" name=lastName placeholder="Last Name" required>
+            <input id="UID" type="text" name="UID" placeholder="University ID" required>
+            <select id="courses" name="courses">
+                <option value="CMSC131">CMSC131</option>
+                <option value="CMSC132">CMSC132</option>
+                <option value="CMSC216">CMSC216</option>
+                <option value="CMSC250">CMSC250</option>
+                <option value="CMSC330">CMSC330</option>
+                <option value="CMSC351">CMSC351</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <br><br>
+    <!--Database/Table of all students-->
+    <table class="tb" style="width:100%">
+        <caption>Table of Students</caption>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>UID</th>
+            <th>Class</th>
+        </tr>
+            <td>Irene</td>
+            <td>Lee</td>
+            <td>119292433</td>
+            <td>CMSC131</td>
+        <tr>
+        </table>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
