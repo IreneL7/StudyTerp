@@ -24,9 +24,42 @@ body {
     font-weight: bold;
 }
 
+
+.icon-button {
+    background: green;
+    height: 41px;
+    width: 72px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    margin-left:10px;
+}
+
 img {
     top: 30px;
     left: 10px;
+    padding:10px;
+    position: absolute;
 }
 
 h1 {
