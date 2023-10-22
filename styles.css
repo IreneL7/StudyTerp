@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFE0;
+}
+
+/* University of Maryland Colors */
+.umd-primary-color {
+    background-color: #D00024; /* UMD red color */
+    color: #FFFFFF; /* White text on red background */
+}
+
+.umd-secondary-color {
+    background-color: #FFD100; /* UMD gold color */
+    color: #000000; /* Black text on gold background */
+}
+
+/* Header Styling */
+.header {
+    background-color: #D00024;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Nav Bar Styling */
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px; 
+}
+
+
+/* Main Content Styling */
+.main-content {
+    padding: 25px;
+}
+
+.feature {
+    text-align: center;
+    font-weight: 500px;
+}
+
+/* Buttons */
+.button {
+    background-color: #D00024;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #FFD100;
+}
+
+/* Links */
+a {
+    color: #D00024;
+    text-decoration: none;
+    padding: 10px 13px 10px 13px;
+    border-radius: 25px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+.copyright {
+    background-color: #D00024;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-section {
+    padding-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (e.g., tablets and smaller screens) */
+    .header {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    li {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for screens with a maximum width of 480px (e.g., smartphones) */
+    .header {
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    li {
+        margin-right: 3px;
+    }
+
+    .button {
+        padding: 5px 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
+}
