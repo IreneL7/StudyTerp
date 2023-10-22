@@ -143,7 +143,7 @@ a:hover::before {
     display: block;
     position: fixed;
     font-size: 36px;
-    margin-top: -300px;
+    margin-top: -350px;
     margin-bottom: 130px;
     margin-right: 490px;
     color:#FFFFFF
@@ -241,7 +241,7 @@ a:hover::before {
 
 /* Profile Page CSS */
 
-profile.html > h2{
+#specialH2{
     margin-left: 270px;
     margin-bottom: -20px;
 }
@@ -381,6 +381,34 @@ profile.html > h2{
 
 .footer-section {
     padding-top: 20px;
+}
+
+/* Matchmaker Page*/
+
+#userInput {
+    text-align:center;
+}
+
+table, th, td {
+    text-align:center;
+}
+caption {
+    font-size:30px;
+}
+th {
+    background-color:#D00024
+}
+input {
+    height:20px;
+    font-size:18px;
+}
+#courses {
+    height:25px;
+}
+
+/* Meet the Team */
+.teamImg{
+    position:relative;
 }
 
 /* Responsive Styles */
