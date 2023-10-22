@@ -68,6 +68,85 @@ li {
     font-size: 20px;
 }
 
+.main-content-login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-label{
+    display: block;
+    font-size: 36px;
+    color:#FAF9F6;
+}
+
+.email-group{
+    width : 90%;
+    max-width: 600px;
+    bottom: 70px;
+}
+
+#email-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #FAF9F6;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    z-index: 10;
+}
+
+#email-label{
+    color: #FAF9F6;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#email-error{
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
+
+.password-group{
+    width : 90%;
+    max-width: 600px;
+}
+
+#password-field{
+    display: block;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #FAF9F6;
+    background: transparent;
+    outline:none;
+    font-size: 26px;
+    padding: 5px 2px;
+    z-index: 10;
+}
+
+#password-label{
+    color: #FAF9F6;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+
+#password-error{
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
+
 /* Buttons */
 .button {
     background-color: #D00024;
@@ -104,7 +183,6 @@ a::before {
     left: 0;
     width: 0;
     height: 0px;
-    background-color: #D00024;
     transition: width 0.3s ease-in-out;
 }
 
@@ -116,7 +194,6 @@ a:hover::before {
     width: 100%;
     height: 2px; /* Add height for the underline */
 }
-
 
 .wider-button {
     width: 150px;
